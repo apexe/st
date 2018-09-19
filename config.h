@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "mono:pixelsize=14:antialias=true:autohint=true";
+static char *font = "mono:pixelsize=13:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
@@ -83,7 +83,7 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-unsigned int alpha = 0xed;
+unsigned int alpha = 0xE1;
 
 static const char *colorname[] = {
 	"#073642",  /*  0: black    */
@@ -114,7 +114,7 @@ static const char *colorname[] = {
  * foreground, background, cursor, reverse cursor
  */
 unsigned int defaultfg = 12;
-unsigned int defaultbg = 256;
+unsigned int defaultbg = 0;
 static unsigned int defaultcs = 14;
 static unsigned int defaultrcs = 15;
 
@@ -125,7 +125,7 @@ static unsigned int defaultrcs = 15;
  * 6: Bar ("|")
  * 7: Snowman ("☃")
  */
-static unsigned int cursorshape = 2;
+static unsigned int cursorshape = 4;
 
 /*
  * Default columns and rows numbers
